@@ -1,14 +1,9 @@
-/* Tablet */
-@media (max-width: 1024px) {
-
-}
-
 /* Mobile */
 @media (max-width: 768px) {
 
     .background-img {
-        height: 69vh;
-        width: 100%;
+        min-height: 600px;
+        height: auto;
     }
 
     .navHeader {
@@ -47,6 +42,10 @@ margin-right: 50px;
         padding: 2.5px;
         height: 32px;
         width: 80px;
+    }
+    .main{
+        padding-top: 120px;
+        margin-top: 0;
     }
 
     .main h1 {
@@ -92,7 +91,8 @@ margin-right: 50px;
 
     .curve {
         width: 100%;
-        margin-top: 1px;
+        height: 35px;
+        margin-top: 0;
     }
     .trending{
     margin-left: 20px;
